@@ -135,3 +135,23 @@ nav h3{
     text-align: center;
     
 }
+
+.offer-section{
+    display: flex;
+    background-color: rgba(229, 84, 115, 0.05);
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 100px;
+    text-align: center;
+    padding: 40px;
+}
+.offer-title{
+    margin-bottom: 10px;
+    font-size: 30px;
+    font-weight: 800;
+
+}
+.offer-description{
+    color: rgba(39, 39, 39, 0.6);
+    margin-bottom: 15px;
+}
