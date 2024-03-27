@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+}
+body{
+    font-family: Lato;
+}
+header > nav{
+    
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+}
+nav > ul{
+    display: flex;
+}
+nav li{
+    list-style: none;
+    margin-right: 20px;
+    
+    
+}
+nav li:hover{
+    color: rgb(229, 84, 115);
+    cursor:pointer
+}
+nav h3{
+    font-size: 25px;
+    font-weight: 800;
+}
+.brand-color{
+    color: rgb(229, 84, 115);
+}
+.header{
+    background-color: rgba(229, 84, 115, 0.1);
+}
+.banner{
+    display: flex;
+    margin: auto;
+    width: 80%;
+    align-items: center;
+    
+}
+.banner-photo{
+    width: 440px;
+    margin-left: 30px;
+}
+.btn-primary{
+    background: rgb(229, 84, 115);
+    color: #FFF;
+    padding: 14px 24px;
+    border: none;
+    border-radius: 5px;
+}
+.banner-title{
+   font-size: 50px;
+   margin-bottom: 15px;
+}
+.banner-description{
+    color: rgba(39, 39, 39, 0.6);
+    margin-bottom: 15px;
+}
+
+.section-title{
+    text-align: center;
+    Font-weight: 800;
+    Font-size: 30px;
+    margin-top: 100px;
+    margin-bottom: 25px;
+}
+.section-description{
+    text-align: center;
+    color: rgba(39, 39, 39, 0.6);
+    font-size: 15px;
+}
+.flower-1{
+    background-color: rgba(167, 33, 98, 0.15);
+    width: 200px;
+    height: 250px;
+    border-top-left-radius:150px;
+    border-top-right-radius: 150px;
+}
+.flower-2{
+    background-color: rgba(5, 151, 160, 0.15);
+    width: 200px;
+    height: 250px;
+    border-top-left-radius:150px;
+    border-top-right-radius: 150px;
+}
+.flower-3{
+    background-color: rgba(71, 125, 17, 0.15);
+    width: 200px;
+    height: 250px;
+    border-top-left-radius:150px;
+    border-top-right-radius: 150px;
+}
+.flower-feature{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    gap: 10px;
+}
+.flower-title{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    gap: 60px;
+    text-decoration-line: underline;
+}
+.img-position1{
+    padding-top: 42px;
+    padding-left: 15px;
+}
+.img-position2{
+    padding-top: 40px;
+    
+}
+.img-position3{
+    padding-top: 23px;
+    padding-left: 18px;
+}
