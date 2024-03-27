@@ -118,3 +118,20 @@ nav h3{
     padding-top: 23px;
     padding-left: 18px;
 }
+.delivery-support-section{
+    background-color: rgba(39, 39, 39, 0.05);
+    width:60%;
+    height: 10%;
+    display: flex;
+    padding: 20px 30px;
+    justify-content: space-evenly;
+    margin: auto;
+    margin-top: 80px;
+    
+
+}
+
+.items{
+    text-align: center;
+    
+}
