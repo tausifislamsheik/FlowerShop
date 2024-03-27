@@ -155,3 +155,18 @@ nav h3{
     color: rgba(39, 39, 39, 0.6);
     margin-bottom: 15px;
 }
+.flower-1x{
+    margin-right: 20px;
+}
+.flower-3x{
+    margin-top: 15px;
+}
+.flower-4x{
+    margin-top: 15px;
+}
+.instagram-section{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+   
+}
