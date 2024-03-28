@@ -200,3 +200,52 @@ nav h3{
     font-size: 30px;
     margin-bottom: 14px;
 }
+
+/* Responsive section */
+
+@media screen and (max-width:576px) {
+   
+    nav,nav > ul{
+        flex-direction: column;
+        text-align: center;
+        gap: 10px;
+    }
+    .banner{
+        flex-direction: column;
+    }
+    .banner-photo{
+        width: 100%;
+    }
+    .section-title, .section-description{
+        padding: 10px;
+    }
+    .flower-title,.delivery-support-section{
+        flex-direction: column;
+        gap: 30px;
+        
+    }
+    .flower-feature{
+        flex-direction: column; 
+        width: 100%;
+    }
+    .offer-section{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .instagram-section{
+        flex-direction: column;
+       padding: 60px;
+    }
+    .flower-2x{
+        margin-left: 15px;
+    }
+    .email-section{
+        padding: 20px;
+    }
+    .input{
+        padding: 8px 20px;
+        margin-bottom: 10px;
+    }
+    
+    
+}
